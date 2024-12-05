@@ -1,0 +1,235 @@
+* {
+    padding: 0px;
+    margin: 0;
+    text-decoration: none;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: white;
+    margin: auto;
+}
+
+/* HEADER */
+/** NAV **/
+.logo img {
+    margin-top: 35px;
+    margin-left: 225px;
+}
+
+.topheader {
+    left: 0;
+    top: 0;
+    width: 100%;
+    
+}
+
+.inicio {
+    background-image: url(../img/fondo.png);
+    background-position: center center;
+    background-size: cover;
+    height: 100vh;
+    min-height: 60rem;
+}
+
+.topnav {
+    display: flex;
+    justify-content: space-between;
+    margin: 0 auto;
+    
+    
+}
+
+.menu-nav {
+    display: flex;
+    list-style: none;
+    padding: 0;
+    margin-right: 225px;
+}
+
+.menu-nav li {
+    padding: 30px 30px;
+    
+}
+
+
+
+.menu-nav a {
+    color: white;
+    font-size: 14px;
+    font-weight: 700;
+    line-height: 50px;
+    font-style: normal;
+    text-transform: uppercase;
+    font-family: 'Raleway', sans-serif;
+}
+
+/**CARRUSEL**/
+.carrusel {
+    height: 600px;
+    position: relative;
+    
+}
+
+.carrusel-texto{
+    
+    height: 100%;
+    display: flex;    
+    
+}
+
+.flechas-carrusel {
+    
+    position: absolute; /** Para que se ponga sobre el carrusel**/
+    top: 0; /** Para que se ponga sobre el arrusel**/
+    height: 100%;
+    width: 100%; /** para que tome el tamaño completo del padre que es texto carrusel **/
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 225px; /** Para que no me queden pegadas las flechas a los bordes**/
+}
+
+#contenedor-carrusel{
+    height: 430px;
+    overflow: hidden;
+    
+}
+
+#texto1 {
+    font-size: 65px;
+    color: white;
+    font-family: 'Raleway', sans-serif;
+    font-weight: 100;
+    font-style: normal;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    
+}
+
+#texto2 {
+    font-size: 65px;
+    color: white;
+    font-family: 'Raleway', sans-serif;
+    font-weight: 100;
+    font-style: normal;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+#texto3 {
+    font-size: 65px;
+    color: white;
+    font-family: 'Raleway', sans-serif;
+    font-weight: 100;
+    font-style: normal;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+#texto4 {
+    font-size: 64px;
+    color: white;
+    font-family: 'Raleway', sans-serif;
+    font-weight: 100;
+    font-style: normal;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+#texto5 {
+    font-size: 65px;
+    color: white;
+    font-family: 'Raleway', sans-serif;
+    font-weight: 100;
+    font-style: normal;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+#contenedor-puntos {
+    display: flex;
+    justify-content: center;
+}
+
+#contenedor-puntos a {
+    padding: 0 5px;
+}
+
+#contenedor-botonhome {
+    display: flex;
+    justify-content:center;
+    margin-bottom: 60px;
+    
+}
+
+#txt2 {
+    color: white;
+    font-size: 25px;
+    margin-top: 20px;
+    font-family: 'proxima-nova', sans-serif;
+    font-weight: 300;
+}
+
+/** ABOUT **/
+
+#tittle-about {
+    font-size: 30px;
+    font-family: 'Raleway', sans-serif;
+    color: #576671;
+    font-weight: 400;
+    display: flex;
+    justify-content: center;
+    margin-top: 50px;
+}
+
+.layer1 {
+    display: flex;
+    margin-left: 945px;
+    max-width: 15px;
+    
+}
+#sub-about {
+    font-family: 'proxima-nova', sans-serif;
+    color: #87949e;
+    display: flex;
+    justify-content: center;
+    margin-bottom: 150px;
+}
+
+.contenedor-about {
+    display: flex;
+    justify-content: space-around;
+    margin: auto;
+}
+
+.about-details {
+    max-width: 250px;
+    justify-content: center;
+    text-align: center;
+}
+
+.about-details h2{
+    color: black;
+    font-family: 'Raleway', sans-serif;
+    font-weight: 100;
+    margin-top: 70px;
+}
+
+.about-details p {
+    font-family: 'proxima-nova', sans-serif;
+    color: #87949e;
+}
+
+.about-boton {
+    display: flex;
+    justify-content: center;
+    padding-top: 150px;
+    padding-bottom: 150px;
+    
+}
